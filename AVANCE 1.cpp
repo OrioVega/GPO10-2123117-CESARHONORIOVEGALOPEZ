@@ -39,6 +39,9 @@ int main()
         cin >> pu;
         imp = 0.16 * pu;
         tot = pu + imp;
+        cout << "Impuesto:\t" << imp<<endl;
+        cout << "Total a pagar:\t" << tot << endl;
+        system("pause");
         return main();
         break;
 
